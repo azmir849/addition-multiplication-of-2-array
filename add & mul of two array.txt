@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main ()
+{
+    int arr1[3],arr2[3],arr3[3],i;
+    printf("Please Enter Three Values  Of First Array : ");
+    for(i=0; i<3; i++)
+    {
+        scanf("%d",&arr1[i]);
+    }
+
+    printf("Please Enter Three Values  Of Second Array : ");
+    for(i=0; i<3; i++)
+    {
+        scanf("%d",&arr2[i]);
+    }
+
+    printf("Sum Of The Two Array Is : ");
+    for(i=0; i<3; i++)
+    {
+        arr3[i] = arr1[i] + arr2 [i];
+        printf(" %d ",arr3[i]);
+
+    }
+    printf("\n");
+    printf("Multiplication Of The Two Array Is : ");
+    for(i=0; i<3; i++)
+    {
+        arr3[i] = arr1[i] * arr2 [i];
+        printf(" %d ",arr3[i]);
+    }
+    printf("\n");
+    getch();
+
+    return 0;
+}
